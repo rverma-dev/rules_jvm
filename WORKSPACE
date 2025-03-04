@@ -68,7 +68,7 @@ maven_install(
         "org.opentest4j:opentest4j:1.2.0",
 
         # Checkstyle deps
-        "com.puppycrawl.tools:checkstyle:10.2",
+        "com.puppycrawl.tools:checkstyle:10.21.4",
 
         # PMD deps
         "net.sourceforge.pmd:pmd-dist:6.46.0",
