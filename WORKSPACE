@@ -54,7 +54,7 @@ maven_install(
         "io.grpc:grpc-netty:1.40.0",
         "io.grpc:grpc-services:1.40.0",
         "io.grpc:grpc-stub:1.40.0",
-        "org.slf4j:slf4j-simple:1.7.32",
+        "org.slf4j:slf4j-simple:1.7.36",
 
         # These can be versioned independently of the versions in `repositories.bzl`
         # so long as the version numbers are higher.
@@ -89,8 +89,8 @@ maven_install(
                 },
             ],
         },
-        "org.slf4j:slf4j-api:1.7.32",
-        "org.slf4j:slf4j-jdk14:1.7.32",
+        "org.slf4j:slf4j-api:1.7.36",
+        "org.slf4j:slf4j-jdk14:1.7.36",
     ] + IO_GRPC_GRPC_JAVA_ARTIFACTS,
     fail_if_repin_required = True,
     fetch_sources = True,
