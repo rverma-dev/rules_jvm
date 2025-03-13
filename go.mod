@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.23.5
 
 require (
-	github.com/aristanetworks/goarista v0.0.0-20250108234106-1f88a86e2265
+	github.com/aristanetworks/goarista v0.0.0-20250211154211-46edb1645c7a
 	github.com/bazelbuild/bazel-gazelle v0.29.0
 	github.com/bazelbuild/buildtools v0.0.0-20250122150430-a84ab464140c
 	github.com/bazelbuild/rules_go v0.38.1
