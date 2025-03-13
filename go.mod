@@ -2,7 +2,7 @@ module github.com/bazel-contrib/rules_jvm
 
 go 1.22.0
 
-toolchain go1.23.5
+toolchain go1.24.1
 
 require (
 	github.com/aristanetworks/goarista v0.0.0-20250211154211-46edb1645c7a
