@@ -77,9 +77,9 @@ def contrib_rules_jvm_gazelle_deps():
     maybe(
         http_archive,
         name = "io_bazel_rules_go",
-        sha256 = "dd926a88a564a9246713a9c00b35315f54cbd46b31a26d5d8fb264c07045f05d",
+        sha256 = "b78f77458e77162f45b4564d6b20b6f92f56431ed59eaaab09e7819d1d850313",
         urls = [
-            "https://github.com/bazelbuild/rules_go/releases/download/v0.38.1/rules_go-v0.38.1.zip",
+            "https://github.com/bazelbuild/rules_go/releases/download/v0.53.0/rules_go-v0.53.0.zip",
         ],
     )
 
