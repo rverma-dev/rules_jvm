@@ -7,7 +7,7 @@ toolchain go1.23.5
 require (
 	github.com/aristanetworks/goarista v0.0.0-20250211154211-46edb1645c7a
 	github.com/bazelbuild/bazel-gazelle v0.29.0
-	github.com/bazelbuild/buildtools v0.0.0-20250122150430-a84ab464140c
+	github.com/bazelbuild/buildtools v0.0.0-20250312151547-737aaf84facd
 	github.com/bazelbuild/rules_go v0.38.1
 	github.com/google/btree v1.1.3
 	github.com/google/go-cmp v0.6.0
