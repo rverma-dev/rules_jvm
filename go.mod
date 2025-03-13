@@ -8,7 +8,7 @@ require (
 	github.com/aristanetworks/goarista v0.0.0-20250211154211-46edb1645c7a
 	github.com/bazelbuild/bazel-gazelle v0.42.0
 	github.com/bazelbuild/buildtools v0.0.0-20250312151547-737aaf84facd
-	github.com/bazelbuild/rules_go v0.50.1
+	github.com/bazelbuild/rules_go v0.53.0
 	github.com/google/btree v1.1.3
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.6.0
@@ -33,8 +33,8 @@ require (
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
-	google.golang.org/genproto v0.0.0-20240123012728-ef4313101c80 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250106144421-5f5ef82da422 // indirect
-	google.golang.org/protobuf v1.36.2 // indirect
+	google.golang.org/genproto v0.0.0-20250115164207-1a7da9e5054f // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
+	google.golang.org/protobuf v1.36.3 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
