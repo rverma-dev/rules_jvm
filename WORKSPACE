@@ -49,11 +49,11 @@ maven_install(
         "com.google.code.findbugs:jsr305:3.0.2",
         "com.google.guava:guava:30.1.1-jre",
         "commons-cli:commons-cli:1.5.0",
-        "io.grpc:grpc-api:1.40.0",
-        "io.grpc:grpc-core:1.40.0",
-        "io.grpc:grpc-netty:1.40.0",
-        "io.grpc:grpc-services:1.40.0",
-        "io.grpc:grpc-stub:1.40.0",
+        "io.grpc:grpc-api:1.72.0",
+        "io.grpc:grpc-core:1.72.0",
+        "io.grpc:grpc-netty:1.72.0",
+        "io.grpc:grpc-services:1.72.0",
+        "io.grpc:grpc-stub:1.72.0",
         "org.slf4j:slf4j-simple:1.7.32",
 
         # These can be versioned independently of the versions in `repositories.bzl`

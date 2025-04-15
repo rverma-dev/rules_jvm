@@ -42,9 +42,9 @@ def contrib_rules_jvm_deps():
     maybe(
         http_archive,
         name = "io_grpc_grpc_java",
-        sha256 = "1b7d8fa9cf549234e68c79a593fe840bb7c7d9bea05b6ad486b90f8e7599b8aa",
-        strip_prefix = "grpc-java-1.49.2",
-        urls = ["https://github.com/grpc/grpc-java/archive/v1.49.2.tar.gz"],
+        sha256 = "524a3d687f06ffd1c6ab66dbbb5de5b9f6adaa662570aa56e553d86c2065eb31",
+        strip_prefix = "grpc-java-1.72.0",
+        urls = ["https://github.com/grpc/grpc-java/archive/v1.72.0.tar.gz"],
     )
 
     maybe(
@@ -86,9 +86,9 @@ def contrib_rules_jvm_gazelle_deps():
     maybe(
         http_archive,
         name = "io_grpc_grpc_java",
-        sha256 = "88b12b2b4e0beb849eddde98d5373f2f932513229dbf9ec86cc8e4912fc75e79",
-        strip_prefix = "grpc-java-1.48.1",
-        urls = ["https://github.com/grpc/grpc-java/archive/v1.48.1.tar.gz"],
+        sha256 = "524a3d687f06ffd1c6ab66dbbb5de5b9f6adaa662570aa56e553d86c2065eb31",
+        strip_prefix = "grpc-java-1.72.0",
+        urls = ["https://github.com/grpc/grpc-java/archive/v1.72.0.tar.gz"],
     )
 
     maybe(
