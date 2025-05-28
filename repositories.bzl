@@ -28,9 +28,9 @@ def contrib_rules_jvm_deps():
     maybe(
         http_archive,
         name = "com_google_protobuf",
-        sha256 = "930c2c3b5ecc6c9c12615cf5ad93f1cd6e12d0aba862b572e076259970ac3a53",
-        strip_prefix = "protobuf-3.21.12",
-        urls = ["https://github.com/protocolbuffers/protobuf/archive/v3.21.12.tar.gz"],
+        sha256 = "ccff8964efdc4052f0b3579ad503dba28729c28fb0cf4245c060ec17667666aa",
+        strip_prefix = "protobuf-3.29.5",
+        urls = ["https://github.com/protocolbuffers/protobuf/archive/v3.29.5.tar.gz"],
     )
 
     maybe(
