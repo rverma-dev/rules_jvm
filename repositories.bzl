@@ -20,9 +20,9 @@ def contrib_rules_jvm_deps():
     maybe(
         http_archive,
         name = "bazel_skylib",
-        sha256 = "3b620033ca48fcd6f5ef2ac85e0f6ec5639605fa2f627968490e52fc91a9932f",
-        strip_prefix = "bazel-skylib-1.3.0",
-        url = "https://github.com/bazelbuild/bazel-skylib/archive/1.3.0.tar.gz",
+        sha256 = "db8d42f8d70df13733ffc221230272058b71c504b2203819de470d59657c35df",
+        strip_prefix = "bazel-skylib-1.9.2",
+        url = "https://github.com/bazelbuild/bazel-skylib/archive/1.9.2.tar.gz",
     )
 
     maybe(
